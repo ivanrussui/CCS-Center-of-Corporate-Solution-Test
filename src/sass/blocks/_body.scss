@@ -181,8 +181,6 @@
         width: 209px;
         display: grid;
         place-items: center;
-        //flex-direction: column;
-        //align-items: center;
 
         &__title {
           position: relative;
@@ -274,7 +272,7 @@
           }
 
           &-select {
-            max-height: 150px;
+            max-height: 175px;
             overflow-y: auto;
             top: 48px;
             left: 0;
@@ -286,7 +284,7 @@
             margin: 0;
 
             &-option {
-              padding: 10px;
+              padding: 5px 10px;
               cursor: pointer;
               color: white;
               background-color: #272733;
@@ -381,7 +379,6 @@
           width: 100%;
           max-width: 370px;
           height: 48px;
-          //padding: 12px;
           border-radius: 3px;
           border: 1px solid $second-color;
           display: flex;
@@ -407,10 +404,7 @@
       }
 
       &-button {
-        //margin-top: 10px;
-        //margin: 10px auto 40px;
         cursor: pointer;
-        //padding: 12px;
         width: 100%;
         max-width: 370px;
         height: 48px;
