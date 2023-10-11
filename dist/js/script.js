@@ -41,8 +41,6 @@ document.addEventListener('DOMContentLoaded', () => {
             select.classList.remove('active')
             select_trigger.style.color = '#272733'
             select_trigger.style.backgroundColor = 'rgba(255, 255, 255, 0.85)'
-            select__arrow.setAttribute('src', './img/bottom_arrow.svg')
-
         })
     }
 
